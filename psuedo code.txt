@@ -1,0 +1,7 @@
+Heating Control Function(target temperature as integer) {
+	if (actual temperature < target temperature) {
+		turn on boiler
+	} else if (actual temperature > target temperature) {
+		turn off boiler
+	}
+}
